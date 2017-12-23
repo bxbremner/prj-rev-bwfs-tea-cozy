@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: "Helvetica";
+  font-size: 22px;
+  text-align: center;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+/* Header Styling */
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  height: 69px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-top: 15px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+  }
+
+/* Main Art and Text */
+
+  #main {
+     width: 1200px;
+     margin: auto;
+     display: flex;
+  }
+
+  .mission {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    padding-top: 69px;
+  }
+
+  .content {
+    display: block;
+    background-color: black;
+    top: 50%;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2, h4 {
+    text-align: center;
+  }
+
+  /* Tea Selection Grid */
+
+  #store {
+  display: flex;
+  }
+
+  .teaheads {
+  width: 100%;
+  margin: auto;
+  text-align: center
+  }
+
+  .flexcontainer-items img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .flexcontainer-items {
+    display: flex;
+    flex direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .item {
+    margin: 15px;
+  }
+
+  /* Locations */
+
+  .flex-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+  #locations .flex-container {
+      width: 1200px;
+      background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+      height: 500px;
+      padding-top: 70px;
+      margin-left: 5%;
+    }
+
+    .locations-headline {
+      text-align: : center;
+    }
+
+    .location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 280px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    }
+
+/* Footer */
+#contact {
+  display: block;
+  height: 220px;
+  margin: auto;
+  text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+  }
+
+  h5 {
+    font-size: 0.83em;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+  }
+
+  .footer  {
+    text-align: left;
+    padding-left: 20px;
+  }
